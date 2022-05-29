@@ -1,0 +1,13 @@
+#Visual Studio folder
+/.vs
+
+#Visual Studio file
+RickRoll.csproj.user
+
+#Build results
+/bin
+/obj
+/publish
+
+#Large file
+/Media/Frames.zip
