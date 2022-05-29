@@ -15,7 +15,7 @@ namespace RickRoll
     {
         static int width, height;
         static IntPtr handle = GetConsoleWindow();
-        static string gradient = "  .^>]|X@";  //Gradient scale: left - dark; right - light
+        static string gradient = "  .,-=:;>|?]X@";  //Gradient scale: left - dark; right - light
         static int gradient_len = gradient.Length - 1;
         static char[][] images;
 
@@ -39,7 +39,7 @@ namespace RickRoll
             Console.SetBufferSize(Console.WindowWidth, Console.WindowHeight);
             Console.CursorVisible = false;
             Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Gray;
 
             /* Width and height of the console buffer*/
             width = Console.BufferWidth;
