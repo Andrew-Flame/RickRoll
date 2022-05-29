@@ -1,5 +1,5 @@
 # RickRoll
-A simple application to prank your friend by throwing him this executable file
+A simple application to prank your friend by throwing him this executable file.
 
 This app uses ASCII graphics to render Rick Astley's "Never Gonna Give You Up" clip. Also, when you start the application, the same music starts playing.
 
