@@ -3,6 +3,7 @@
 
 #Visual Studio file
 RickRoll.csproj.user
+StrongName.pfx
 
 #Build results
 /bin

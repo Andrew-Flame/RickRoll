@@ -25,9 +25,10 @@
     <MapFileExtensions>false</MapFileExtensions>
     <ProductName>RickRoll</ProductName>
     <PublisherName>Andrew-Flame</PublisherName>
+    <SuiteName>RickRoll</SuiteName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>2</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.1.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -63,6 +64,12 @@
   <PropertyGroup>
     <SignManifests>true</SignManifests>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongKeys.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -87,6 +94,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Media\Frames.zip" />
+    <None Include="StrongKeys.pfx" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Media\audio.wav" />
